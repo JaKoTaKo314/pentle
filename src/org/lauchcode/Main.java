@@ -12,11 +12,9 @@ public class Main {
             if (values[i] > max) {
                 max = values[i];
             }
-        }
-        for (int i = 0; i < values.length; i++) {
-            if (values[i] < min) {
+            else if (values[i] < min) {
                 min = values[i];
-            }
+        }
         }
         System.out.println("Maksymalna wartość wynosi " + max);
         System.out.println("Minimalna wartość wynosi " + min);
